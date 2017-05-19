@@ -42,6 +42,8 @@ class NumberConverter
         else
           "#{number_to_text(million_part)} million #{number_to_text(nr - (million_part * 1000000))}"
         end
+      elsif nr < 0
+        "Negative numbers are not allowed!"
       # If the number is too big, then return with an error message
       else
         "Too big number!"

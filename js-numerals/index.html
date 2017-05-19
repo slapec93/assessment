@@ -1,11 +1,20 @@
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <script type="text/javascript" src="number_converter.js"></script>
   </head>
   <body>
-    <label for="input-number">Please enter a number!</label>
-    <input id="input-number" type="text" />
-    <button id="btn-convert" onclick="btnConvertClicked()">Convert</button>
-    <span id="result-container"></span>
+    <div class="outer-container">
+      <div class="middle-container">
+        <div class="main-container">
+          <div class="form">
+            <label for="input-number">Please enter a number!</label>
+            <input id="input-number" class="control" type="text" />
+            <button id="btn-convert" class="control" onclick="btnConvertClicked()">Convert</button>
+          </div>
+          <div id="result-container" class="control" ></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

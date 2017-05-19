@@ -1,0 +1,29 @@
+.outer-container {
+  display: table;
+  position: absolute;
+  height: 99%;
+  width: 99%;
+}
+.middle-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+.form {
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+.main-container .control {
+  margin-top: 10px;
+}
+#result-container {
+  background-color: #eee;
+  padding: 5px;
+  margin-top: 20px !important;
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+}
+.main-container #input-number {
+  width: 100%;
+}
